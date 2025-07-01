@@ -370,7 +370,7 @@ const Controls: React.FC<ControlsProps> = ({
             />
           </label>
           <label style={labelStyle}>
-            Line Thickness
+            Cord Size (px)
             <input
               type="number"
               max={20}
@@ -384,7 +384,7 @@ const Controls: React.FC<ControlsProps> = ({
             />
           </label>
           <label style={labelStyle}>
-            Speed
+            Speed Multiplier
             <input
               type="number"
               step={0.01}
